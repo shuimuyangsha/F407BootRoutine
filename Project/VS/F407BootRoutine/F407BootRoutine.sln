@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F407BootRoutine", "F407BootRoutine\F407BootRoutine.vcxproj", "{C05D7A02-EF1A-4EDF-80D1-B6CB677F5123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05D7A02-EF1A-4EDF-80D1-B6CB677F5123}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{C05D7A02-EF1A-4EDF-80D1-B6CB677F5123}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{C05D7A02-EF1A-4EDF-80D1-B6CB677F5123}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{C05D7A02-EF1A-4EDF-80D1-B6CB677F5123}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5645123F-9908-4BDD-81B1-7CE63F3B432E}
+	EndGlobalSection
+EndGlobal

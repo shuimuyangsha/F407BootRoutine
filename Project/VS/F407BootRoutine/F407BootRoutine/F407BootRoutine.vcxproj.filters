@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3e1b5f85-1c88-4b53-b904-e7177b431e54}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{364fdc55-3031-430a-8846-09dd7c80deed}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{ec1bcdc3-af66-4627-b371-95ec1c4bdaea}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{c3938d4e-dc1b-4ce9-9f7f-055b8b44237d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{481a21e7-9c14-45b4-bb96-4b82bdff3e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{16ec6709-f854-48da-973a-82bfb11d6454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USMART">
+      <UniqueIdentifier>{6414a8c2-a4d0-4e16-ad85-e4b3b57354d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MALLOC">
+      <UniqueIdentifier>{f87f5771-ddb8-4884-8223-07f6c87ce345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FATFS">
+      <UniqueIdentifier>{ef47b985-7dd3-45d7-a2a7-583ef79a3878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TEXT">
+      <UniqueIdentifier>{a508a56e-4d69-457a-8b50-30ed4b68b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PICTURE">
+      <UniqueIdentifier>{a5fa02a4-5e8d-4bfb-a0e1-d5d420d8a308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\APP">
+      <UniqueIdentifier>{7b17716c-6719-45c1-a0f7-56ea377ca4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GUI">
+      <UniqueIdentifier>{543c3a5d-1640-414f-ba76-bec98c9c678d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UCOSII-CORE">
+      <UniqueIdentifier>{2376c032-bca2-48df-b0da-7c13ac135cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UCOSII-PORT">
+      <UniqueIdentifier>{5368d0cc-c223-44c9-8a4f-f99801edf368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UCOSII-CONFIG">
+      <UniqueIdentifier>{f848efac-169f-4973-bf86-f935c86385ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AUDIOCODEC_WAV">
+      <UniqueIdentifier>{3992aede-b879-489c-bf9f-9f022157fcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AUDIOCODEC_MP3">
+      <UniqueIdentifier>{e5519d58-c731-482a-a7a0-73eb18ea5263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AUDIOCODEC_FLAC">
+      <UniqueIdentifier>{78f7be14-d1e2-46e6-bca9-29fcdf5e76ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AUDIOCODEC_APE">
+      <UniqueIdentifier>{461b22cc-dfa2-4b51-9b07-2063e1a12ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_OTG">
+      <UniqueIdentifier>{b97ff6af-8371-45dc-9ba0-0bed93acd571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_HOST">
+      <UniqueIdentifier>{81133b99-b7c8-48c1-b45a-2cd5dc8abef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE">
+      <UniqueIdentifier>{d3aa87e3-ad10-4b19-a340-89de644d9e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_APP">
+      <UniqueIdentifier>{d07a5d1a-d8cc-4719-9cc2-79d30938a7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MJPEG">
+      <UniqueIdentifier>{8a70d767-965e-42ce-b6ab-eebad11662af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\NES">
+      <UniqueIdentifier>{7e39da18-c4c9-40ec-9ede-c8cfb037a144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\T9INPUT">
+      <UniqueIdentifier>{fb1071b9-baf5-407b-a79a-ee15e414680b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ATKNCR">
+      <UniqueIdentifier>{07f6c920-c0c3-4b67-8e63-a9b8edd6cfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LWIP_APP">
+      <UniqueIdentifier>{afa86c17-4903-4d8d-861f-2d13f4d0a265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LWIP_NETIF">
+      <UniqueIdentifier>{a920474a-192f-4291-9f65-4d34af7213d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LWIP_CORE">
+      <UniqueIdentifier>{132215d0-ebc7-4a1c-b59f-c557ee975f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LWIP_ARCH">
+      <UniqueIdentifier>{4dd897ac-fef2-4e55-b43d-20a644164419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LWIP_API">
+      <UniqueIdentifier>{985f1f5e-3aac-4014-8eab-a1a49199f1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLIB">
+      <UniqueIdentifier>{0db7ee13-42ff-4ff9-a452-3e56b71a2f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{59b8b965-a801-44c3-b462-c3bac5af84a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{ad7b4e68-42f8-417d-9f20-22d86802c2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{c45faaf6-d553-4adb-a84f-89c62bc2eb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{b36f31c5-31f8-47de-b81c-d4b08d529ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{37127e7c-e9c5-4d5e-856e-39f4927e9022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USMART">
+      <UniqueIdentifier>{051e6453-9f15-4d1e-b60d-e73cbfde9991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MALLOC">
+      <UniqueIdentifier>{b4c90446-3432-42fb-b8b5-d131051706f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FATFS">
+      <UniqueIdentifier>{b4976909-4005-4dce-aaf7-2bd2607e722d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TEXT">
+      <UniqueIdentifier>{99965b50-e38b-47cd-a8fa-a4746f1bca28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\PICTURE">
+      <UniqueIdentifier>{ec17c626-af49-4709-8043-c25b1d9f6b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\APP">
+      <UniqueIdentifier>{e1860af1-eec7-42e4-bb3d-c7180d348b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GUI">
+      <UniqueIdentifier>{559dee40-832b-4bb5-a7a5-8e79b649695e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UCOSII-CORE">
+      <UniqueIdentifier>{6a636485-381d-4c39-9b2d-a30e9dc37717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UCOSII-PORT">
+      <UniqueIdentifier>{f88f705e-bc58-48ea-9215-e5c02c90efdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UCOSII-CONFIG">
+      <UniqueIdentifier>{289768ff-dd47-4126-892f-c77e41f03f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AUDIOCODEC_WAV">
+      <UniqueIdentifier>{a12cb1c3-0eb8-4aad-9b02-3b8792de7061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AUDIOCODEC_MP3">
+      <UniqueIdentifier>{89930a8f-23da-4644-94de-d4783abcfed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AUDIOCODEC_FLAC">
+      <UniqueIdentifier>{d8ad93d8-6a0d-479b-872a-86086acb4073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AUDIOCODEC_APE">
+      <UniqueIdentifier>{9fa58424-bb32-4b3b-be93-efd1784cd751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_OTG">
+      <UniqueIdentifier>{9a8686bf-659c-4c79-945a-1c26fbaa8f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_HOST">
+      <UniqueIdentifier>{161489c4-a491-4d50-8b59-30054bfac445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE">
+      <UniqueIdentifier>{101f8656-9368-4335-99c1-8d707a5757b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_APP">
+      <UniqueIdentifier>{84179524-c5ac-4d16-ad90-3ac7a30e69a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MJPEG">
+      <UniqueIdentifier>{601bd5c0-0750-4a6b-8e91-ed5655dc4803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\NES">
+      <UniqueIdentifier>{15ba69bc-7fbe-4e4b-bd5c-a3f0c903d69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\T9INPUT">
+      <UniqueIdentifier>{fece1fe0-e4d3-4846-b50f-6e9a2ffbb0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ATKNCR">
+      <UniqueIdentifier>{b6c9c7db-2e19-4207-b5b7-dc7c972e72c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LWIP_APP">
+      <UniqueIdentifier>{dbd5e5aa-2887-4abf-89f7-4704e8bc9275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LWIP_NETIF">
+      <UniqueIdentifier>{d370acc2-9281-4f99-87db-f00a3d267db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LWIP_CORE">
+      <UniqueIdentifier>{9850326e-980b-45a7-bf30-64e6b855c6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LWIP_ARCH">
+      <UniqueIdentifier>{6af0cd0e-c631-43a7-894d-191122abdfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LWIP_API">
+      <UniqueIdentifier>{f3f930fb-b279-4b34-8bf1-d3c0b244d0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLIB">
+      <UniqueIdentifier>{c7c30774-aae8-4156-a4ff-5aed728f70fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{ced3be23-fa9d-4f5a-bdb5-281c97249b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{cd9e5650-22a1-41c1-9b61-d3007fd4ffe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{60294f30-136f-4b24-a4b3-4d869d88ce75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USER\system_stm32f4xx.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\LED\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\KEY\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\LCD\lcd.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\SRAM\sram.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\SPI\spi.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\W25QXX\w25qxx.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\SDIO\sdio_sdcard.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\DCMI\dcmi.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\OV2640\ov2640.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\OV2640\sccb.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\BEEP\beep.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TIMER\timer.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\SPBLCD\spblcd.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\24CXX\24cxx.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\24CXX\myiic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ctiic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ott2001a.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ft5206.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\gt9147.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\touch.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\TPAD\tpad.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\RTC\rtc.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\ADC\adc.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\I2S\i2s.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\WM8978\wm8978.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\DS18B20\ds18b20.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\LSENS\lsens.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\mpu6050.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\eMPL\inv_mpu.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\eMPL\inv_mpu_dmp_motion_driver.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\NRF24L01\24l01.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\REMOTE\remote.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\USART3\usart3.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\SIM900A\sim900a.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\ETHERNET\lan8720.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HARDWARE\ETHERNET\stm32f4x7_eth.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USMART\usmart.c">
+      <Filter>Source files\USMART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USMART\usmart_config.c">
+      <Filter>Source files\USMART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USMART\usmart_str.c">
+      <Filter>Source files\USMART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MALLOC\malloc.c">
+      <Filter>Source files\MALLOC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\src\diskio.c">
+      <Filter>Source files\FATFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\src\ff.c">
+      <Filter>Source files\FATFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\exfuns.c">
+      <Filter>Source files\FATFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\fattester.c">
+      <Filter>Source files\FATFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\mycc936.c">
+      <Filter>Source files\FATFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\TEXT\fontupd.c">
+      <Filter>Source files\TEXT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\TEXT\text.c">
+      <Filter>Source files\TEXT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\PICTURE\bmp.c">
+      <Filter>Source files\PICTURE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\PICTURE\gif.c">
+      <Filter>Source files\PICTURE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\PICTURE\piclib.c">
+      <Filter>Source files\PICTURE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\PICTURE\tjpgd.c">
+      <Filter>Source files\PICTURE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\spb.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\common.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\ebook.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\picviewer.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\audioplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\lyric.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\videoplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\calendar.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\settings.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\nesplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\notepad.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\exeplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\paint.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\camera.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\recorder.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\usbplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\netplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\wirelessplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\calculator.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\phoneplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\appplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\appplay_remote.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\appplay_gyro.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\appplay_wlvideo.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\APP\smsplay.c">
+      <Filter>Source files\APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\button.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\edit.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\filelistbox.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\gui.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\listbox.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\memo.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\progressbar.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\scrollbar.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\GUI\window.c">
+      <Filter>Source files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_core.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_flag.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mbox.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mem.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mutex.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_q.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_sem.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_task.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_time.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_tmr.c">
+      <Filter>Source files\UCOSII-CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_c.c">
+      <Filter>Source files\UCOSII-PORT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\wav\wavplay.c">
+      <Filter>Source files\AUDIOCODEC_WAV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\mp3play.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\bitstream.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\buffers.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\dct32.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\dequant.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\dqchan.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\huffman.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\hufftabs.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\imdct.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\mp3dec.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\mp3tabs.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\scalfact.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\stproc.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\subband.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\trigtabs.c">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\arm\asmmisc_rvds.s">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3\helix\arm\asmpoly_thumb2_rvds.s">
+      <Filter>Source files\AUDIOCODEC_MP3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\flac\flacplay.c">
+      <Filter>Source files\AUDIOCODEC_FLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\flac\flacdec\bitstreamf.c">
+      <Filter>Source files\AUDIOCODEC_FLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\flac\flacdec\flacdecoder.c">
+      <Filter>Source files\AUDIOCODEC_FLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\flac\flacdec\tables.c">
+      <Filter>Source files\AUDIOCODEC_FLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apeplay.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\apedecoder.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\entropy.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\filter_16_11.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\filter_32_10.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\filter_64_11.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\parser.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\predictor.c">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\ape\apedec\predictor-arm.S">
+      <Filter>Source files\AUDIOCODEC_APE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_core.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_hcd.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_OTG_Driver\src\usb_hcd_int.c">
+      <Filter>Source files\USB_OTG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Core\src\usbh_core.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Core\src\usbh_hcs.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Core\src\usbh_ioreq.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Core\src\usbh_stdreq.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\HID\src\usbh_hid_core.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\HID\src\usbh_hid_gamepad.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\HID\src\usbh_hid_keybd.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\HID\src\usbh_hid_mouse.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_bot.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_core.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_HOST_Library\Class\MSC\src\usbh_msc_scsi.c">
+      <Filter>Source files\USB_HOST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_core.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Core\src\usbd_req.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_bot.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_core.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_data.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_scsi.c">
+      <Filter>Source files\USB_DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usb_bsp.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usbd_storage_msd.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usbd_desc.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usbd_usr.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usbh_usr.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\USB\USB_APP\usb_app.c">
+      <Filter>Source files\USB_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\avi.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\mjpeg.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jaricom.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jcomapi.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jutils.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jerror.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jmemmgr.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdapimin.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdapistd.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdarith.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdmaster.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdinput.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdmarker.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdhuff.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdmainct.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdcoefct.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdpostct.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jddctmgr.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jidctfst.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jidctflt.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jidctint.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdsample.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdcolor.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jquant2.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jquant1.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jdmerge.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\jmemnobs.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MJPEG\JPEG\wrppm.c">
+      <Filter>Source files\MJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\nes_main.c">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\nes_ppu.c">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\nes_apu.c">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\nes_mapper.c">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\6502.s">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\NES\cart.s">
+      <Filter>Source files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\T9INPUT\t9input.c">
+      <Filter>Source files\T9INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\T9INPUT\pyinput.c">
+      <Filter>Source files\T9INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ATKNCR\atk_ncr.c">
+      <Filter>Source files\ATKNCR</Filter>
+    </ClCompile>
+    <Library Include="..\..\..\..\ATKNCR\ATKNCR_M_V2.0.lib">
+      <Filter>Source files\ATKNCR</Filter>
+    </Library>
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\lwip_comm\lwip_comm.c">
+      <Filter>Source files\LWIP_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\fs.c">
+      <Filter>Source files\LWIP_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\httpd.c">
+      <Filter>Source files\LWIP_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\httpd_cgi_ssi.c">
+      <Filter>Source files\LWIP_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\netif\etharp.c">
+      <Filter>Source files\LWIP_NETIF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\netif\ethernetif.c">
+      <Filter>Source files\LWIP_NETIF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\autoip.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\icmp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\igmp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\inet.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\inet_chksum.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip_addr.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip_frag.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\def.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\dhcp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\dns.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\init.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\mem.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\memp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\netif.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\pbuf.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\raw.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\stats.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp_in.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp_out.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\timers.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\udp.c">
+      <Filter>Source files\LWIP_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\arch\sys_arch.c">
+      <Filter>Source files\LWIP_ARCH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\api_lib.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\api_msg.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\err.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netbuf.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netdb.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netifapi.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\sockets.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\tcpip.c">
+      <Filter>Source files\LWIP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\misc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_adc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_can.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_crc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_cryp.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_cryp_aes.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_cryp_des.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_cryp_tdes.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dac.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dbgmcu.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dcmi.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dma2d.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_dma.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_exti.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_flash.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_flash_ramfunc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_fsmc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_gpio.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_hash.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_hash_md5.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_hash_sha1.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_i2c.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_iwdg.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_ltdc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_pwr.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_rcc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_rng.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_rtc.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_sai.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_sdio.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_spi.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_syscfg.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_tim.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_usart.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\FWLIB\src\stm32f4xx_wwdg.c">
+      <Filter>Source files\FWLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CORE\startup_stm32f40_41xxx.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\UCOSII\PORT\os_cpu.h">
+      <Filter>Header files\UCOSII-PORT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UCOSII\CONFIG\includes.h">
+      <Filter>Header files\UCOSII-CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UCOSII\CONFIG\os_cfg.h">
+      <Filter>Header files\UCOSII-CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="F407BootRoutine-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="F407BootRoutine-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s">
+      <Filter>Source files\UCOSII-PORT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
